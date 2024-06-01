@@ -1,0 +1,209 @@
+#logo {
+    width: 5vw;
+    height: 10vh;
+}
+
+#logoContainer {
+    display: flex;
+}
+
+.carousel-img {
+    height: 80vh;
+    z-index: -1;
+}
+
+.card-overlay {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.407);
+    z-index: 0;
+}
+
+#backDrop {
+    position: absolute;
+    z-index: 2;
+    background-color: #0000006b;
+    width: 100%;
+    height: 100vh;
+}
+
+#backDrop>.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.popup-bg {
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.407);
+    z-index: 1;
+    display: none;
+}
+
+#navSearch {
+    float: right;
+    margin-right: 22vw;
+}
+
+.box-img {
+    height: 50vh;
+}
+
+#aboutUsBg {
+    background: url("/static/images/flowerPot.png") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    z-index: -1;
+    border-radius: 40%;
+}
+
+.signUpBg {
+    background: url("/static/images/familyTree2.png") no-repeat center center;
+    background-size: cover;
+}
+
+#faqBg {
+    background: url("/static/images/faq.png") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    z-index: -1;
+}
+
+.darkBg {
+    background-color: rgba(0, 0, 0, 0.597);
+    z-index: 0;
+}
+
+#aboutUsText {
+    margin-top: 20vh;
+    align-items: center;
+    justify-self: center;
+    color: grey;
+}
+
+.card-header {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #000 10%, transparent 50%) 100% 1;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.card-img-gen {
+    height: 30vh;
+}
+
+.clickable-list {
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    text-align: center;
+    color: aliceblue;
+}
+
+.footerIcons {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin-left: 50px;
+    filter: invert(50%);
+}
+
+#loginContainer {
+    margin-top: 10vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgb(0, 0, 0);
+}
+
+#signUpContainer {
+    margin-top: 10vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgb(0, 0, 0);
+}
+
+#cartContainer {
+    margin-top: 10vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgb(0, 0, 0);
+    overflow-y: scroll;
+}
+
+#loginForm {
+    margin-top: 16vh;
+}
+
+#loginForm>div {
+    margin-bottom: 2vh;
+}
+
+#signUpForm {
+    margin-top: 8vh;
+}
+
+#signUpForm>div {
+    margin-bottom: 2vh;
+}
+
+.social {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 12px;
+    border-radius: 100%;
+}
+
+.social:hover {
+    filter: invert(100%);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.profileImg {
+    height: 60px;
+    width: 60px;
+}
+
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

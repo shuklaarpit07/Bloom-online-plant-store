@@ -1,0 +1,32 @@
+<div id="loginContainer" class="row">
+    <div style="background-color:rgb(33, 33, 33);" class="col-md-6">
+        <form id="loginForm" name="loginForm">
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"><i class="fa fa-user"></i> Username</span>
+                <input name="username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock"></i> Password</span>
+                <input name="password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
+            </div>
+            <div class="input-group flex-nowrap">
+                <button onclick="loginUser()" class="form-control btn btn-outline-primary" type="button"><i class="fa fa-sign-in"></i> Login </button>
+            </div>
+            <a href="#">
+                <p style="text-align: center;">Forgot Password!</p>
+            </a>
+        </form>
+        <hr style="width:60%;text-align:center;color: rgb(192, 192, 192);margin-left: 4vw;">
+        <p style="text-align: center; color:rgb(132, 132, 132);">Or Sign Up Using..</p>
+        <form class="d-flex">
+            <a href="#" class="fa fa-facebook social"></a>
+            <a href="#" class="fa fa-twitter social"></a>
+            <a href="#" class="fa fa-google social"></a>
+            <a href="#" class="fa fa-linkedin social"></a>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <img class="img-fluid" src="/static/images/hiCactus.png" alt="hiCactus">
+    </div>
+
+</div>

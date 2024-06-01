@@ -1,0 +1,140 @@
+<!-- Caraousel-->
+<div class="row">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="static\images\caraousal1.png" class=" w-100 img-fluid carousel-img" alt="...">
+                <div class="card-img-overlay card-overlay"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Bloom it Up !</h3>
+                    <p>Create incredible plant design for your offices or apartments. Bloom Up your Space ..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static\images\carousel2.png" class=" w-100 img-fluid carousel-img" alt="...">
+                <div class="card-img-overlay card-overlay"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="static\images\carousel3.png" class=" w-100 img-fluid carousel-img" alt="...">
+                <div class="card-img-overlay card-overlay"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</div>
+<!-- Caraousel-->
+<!-- About Us-->
+<div class="row" style="margin-top:10vh;" id="aboutUsSection">
+    <div class="col-7" class="box-content" id="aboutUsText">
+        <h3 style="color:black;"><u>About Us !</u></h3>
+        <h5>Why Choose Us</h5>
+        <p>We have over 4000+ unbiased reviews and our customers trust our plant process and delivery service every time. We always deliver on time. We give you guides to protect and care for your plants. We always come over for a check-up after sale. 100%
+            money back guaranteed.</p>
+
+    </div>
+    <div class="col-4" class="box-img" class="darkBg">
+        <div class="row">
+            <div style="margin-top:8vh;" class="col-10" id="aboutUsBg">
+                <div class="card-header" id="aboutUsHeader">
+                    <h2 id="aboutUs" style="text-align:left;"></h2>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--PRODUCTS-->
+<div class="row" style="margin-top:10vh;" id="productsSection">
+    <div class="col-12">
+        <div style="display: flex; justify-content:center; align-items:center; margin-bottom:5vh;" class="row">
+            <div class="card-header">
+                <h2 style="text-align:center;">Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/images/plants.png" class="card-img-top card-img-gen" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plants</h5>
+                        <p class="card-text">We Provide Variety of plants to decorate your office or apartments.Design your work space and add some freshness to it.</p>
+                        <button onclick="getRequest('/products', 'products')" type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/images/vase.png" class="card-img-top card-img-gen" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vase</h5>
+                        <p class="card-text">We have the best collection of decorative vase for your plant in all sizes. Pick your favourite and make home for your tiny plant.</p>
+                        <button onclick="openProducts()" type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="/static/images/plantCare.png" class="card-img-top card-img-gen" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plant Care products</h5>
+                        <p class="card-text">We have many plant care products from persticide to tools for planting and maintaining your plant. Give your plants the best.</p>
+                        <button onclick="openProducts()" type="button" class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<!--PRODUCTS-->
+<!-- FAQ-->
+<div class="row" style="margin-top:10vh;" id="faqSection">
+
+    <div class="col-6" class="box-img" class="darkBg">
+        <div class="row">
+            <div style="margin-top:8vh;" class="col-10" id="faqBg">
+
+                <div class="card-body">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-6" class="box-content" id="aboutUsText">
+        <h3 style="color:black;"><u>Ask Us !</u></h3>
+        <h5>Have a Query ?</h5>
+        <ul>
+            <li>Who should I connect if I have a query?</li>
+            <li>What is my shippment number?</li>
+            <li>Can i track my parcel?</li>
+            <li>When will my parcel arrive?</li>
+
+        </ul>
+
+
+    </div>
+</div>
